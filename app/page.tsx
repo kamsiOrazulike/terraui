@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen overflow-hidden">
       <div className="flex flex-grow bg-gradient-to-r from-[#FFF7CC] to-[#FFBCC9] relative">
-        <a className="w-40 absolute top-2 left-2 m-2 z-0" href="/">
+        <a className="w-[110px] absolute top-2 left-5 m-2 z-0" href="/">
           <img src="./logo.png" className="w-full" />
         </a>
 

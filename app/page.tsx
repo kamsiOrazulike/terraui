@@ -20,7 +20,7 @@ export default function Home() {
               <div className="hover:cursor-pointer faq-item bg-[#FFBCC9] px-6 py-2 mx-1 rounded-full hover:bg-[#FF9DB0] mb-4 transition-all duration-150">
                 Do we get data from Omron cuffs?
               </div>
-              <div className="hover:cursor-pointer faq-item bg-[#FFBCC9] px-6 py-2 mx-1 rounded-full hover:bg-[#FF9DB0] mb-4 transition-all duration-150">
+              <div className="border border-white text-white hover:cursor-pointer faq-item bg-[#008AFF] px-6 py-2 mx-1 rounded-full hover:bg-[#0062ff] mb-4 transition-all duration-150">
                 Who are Terra API?
               </div>
               <div className="hover:cursor-pointer faq-item bg-[#FFBCC9] px-6 py-2 mx-1 rounded-full hover:bg-[#FF9DB0] mb-4 transition-all duration-150">
@@ -37,7 +37,7 @@ export default function Home() {
           </div>
 
           <div className="w-full md:w-1/4 flex flex-col justify-center items-center">
-            <div className="flex-none bg-white text-[#1E293A] w-full mt-8 p-8 rounded-lg shadow-lg">
+            <div className="flex-none bg-white text-[#1E293A] mt-8 p-8 rounded-lg shadow-lg">
               <h1 className="text-3xl font-semibold mb-6">
                 Terra <sup className="text-purple-500">AI</sup>
               </h1>

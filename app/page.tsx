@@ -9,7 +9,7 @@ export default function Home() {
         </a>
 
         <div className="z-50 w-full px-6 py-8 md:p-14 flex flex-col md:flex-row justify-between items-center">
-          <div className="flex flex-col items-start w-full md:w-3/4">
+          <div className="z-50 flex flex-col items-start w-full md:w-3/4">
             <div className="w-full md:w-3/4 mt-20 mb-20">
               <h1 className="text-[#1E293A] text-7xl font-black">
                 How can we help you?
@@ -35,6 +35,7 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="z-0 absolute bottom-[-150px] left-[-150px] w-3/4 h-[500px] bg-white/30 border rounded-xl border-white px-8 py-4"></div>
 
           <div className="w-full md:w-1/4 flex flex-col justify-center items-center">
             <div className="flex-none bg-white text-[#1E293A] mt-8 p-8 rounded-lg shadow-lg">
@@ -65,6 +66,9 @@ export default function Home() {
 
         {/* BACKGROUND IMAGES */}
         <div className="z-0">
+          <div className="w-full absolute top-[-10px] right-0">
+            <img src="./Vector-2.svg" className="w-full" alt="Vector 2" />
+          </div>
           <div className="w-full absolute bottom-[-180px] right-0">
             <img src="./Vector-2.svg" className="w-full" alt="Vector 2" />
           </div>
